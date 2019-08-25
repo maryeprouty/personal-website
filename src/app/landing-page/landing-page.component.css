@@ -1,0 +1,18 @@
+body {
+  background-color: #EEE2DC;
+  padding: 20px;
+}
+
+/* Flex between the welcome text and picture of me */
+.welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.myText {
+  padding-top: 12%;
+  padding-left: 5%;
+}
