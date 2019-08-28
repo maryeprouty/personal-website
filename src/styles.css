@@ -33,6 +33,15 @@ hr {
   border: 1px solid black;
 }
 
+/* Flex between elts in a row */
+.flexClass {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+}
+
 
 
 
