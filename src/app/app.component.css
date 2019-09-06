@@ -1,0 +1,9 @@
+li {
+  font-size: 40px;
+  text-space: 10px;
+  color: #123C69;
+}
+
+li:hover {
+  color: white;
+}

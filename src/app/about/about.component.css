@@ -5,9 +5,10 @@ body {
 /* Flex description & slideshow together in same row */
 .processBlock {
   display: flex;
+  /*flex: 40% 60%;*/
   flex-direction: row;
   justify-content: space-between;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   padding-bottom: 30px;
 }
@@ -22,12 +23,24 @@ li {
 }
 
 p {
-  padding-top: 20px;
+  padding-top: 40px;
   text-align: justify;
 }
 
 .block {
   width: 40%;
+}
+
+.secondBlock {
+  width: 50%;
+  height: 400px;
+}
+
+slideshow {
+  /*border-radius: 25px;*/
+  /*padding: 0;*/
+  /*border: 25px solid saddlebrown;*/
+  /*border-image: url('../../assets/frame.png') 40 stretch;*/
 }
 
 
