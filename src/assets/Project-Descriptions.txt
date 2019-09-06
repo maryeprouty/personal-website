@@ -1,0 +1,21 @@
+Project Descriptions
+
+1. ClearMind
+
+A cross-platform mobile application that calculates and updates users on changes in weather conditions, including barometric pressure, UV index, and different types of pollen counts, all of which may cause allergies, migraines, or sinus infections.
+
+2. HealthItForward
+
+A progressive web based platform that aims to connect patients, caregivers, doctors, and medical researchers. The goal of HealthItForward is to accumulate medical data in order to help advance current medicine, both alternative and allopathic, as well as raise awareness for incurable diseases like Parkinson's. 
+
+3. Attack Analysis
+
+A Java program mapping malicious attack behaviors to common software weaknesses in order to prioritize technical debt in a security setting and refactor the vulnerabilities that pose the greatest threat in a software system. This research project was developed under the guidance of Dr. Clemente Izurieta, who co-authored the resulting pilot study with me, which can be found below.
+
+4. Courier Replica
+
+A replica of the Microsoft Courier tablet designed in Java Swing. This application features a multitude of drawing tools such as free-form digital ink, rubberbanding rectangles, and pink sticky notes for typed text, as well as a Simple Gesture Recognizer and animations between pages, all of which leverage the redraw pipeline.
+
+5. Pounce!
+
+A Gameboy game where you, a small bunny, must maneuver through hedge mazes and avoid the evil cats lurking about. Four levels of fun with my own original sprites and game design!
