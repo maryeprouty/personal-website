@@ -6,6 +6,7 @@
   font-weight: 300;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -20,11 +21,13 @@ header:after {
 
 div {
   padding: 10px;
-  /*overflow: auto;*/
 }
 
 img {
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*padding: 10px;*/
 }
 
 hr {

@@ -2,6 +2,36 @@ body {
   background-color: #BAB2B5;
 }
 
+h3 {
+  text-align: left;
+  font-weight: 600;
+  padding-top: 10px;
+  margin: 0;
+}
+
 p {
-  padding: 20px;
+  text-align: justify;
+}
+
+/* Flex icon and project description in same row */
+.block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+
+/* Make icons all same square size */
+.myIcon {
+  width: 164px;
+  height: 164px;
+  padding-right: 40px;
 }

@@ -1,9 +1,22 @@
+/* Text beside image */
 body {
   background-color: #EEE2DC;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .myText {
   padding-top: 12%;
   padding-left: 5%;
+  color: #123C69;
 }
+
+.me {
+  width: 85%;
+  height: 95%;
+  border-radius: 25px;
+  padding: 0;
+  border: 25px solid transparent;
+  border-image: url('../../assets/frame.png') 40 stretch;
+}
+
