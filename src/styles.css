@@ -45,6 +45,7 @@ hr {
 }
 
 /* Allows navigation on the side as you scroll */
+/* Commented out in html for now */
 .sidebar {
   position: sticky;
   top: 35%;
