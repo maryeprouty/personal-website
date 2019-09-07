@@ -30,28 +30,28 @@ export class ProjectsComponent implements OnInit {
       '../assets/healthitforward.png');
     this.healthItForward.setDescription('A progressive web based platform that aims to connect patients, caregivers, ' +
       'doctors, and medical researchers. The goal of HealthItForward is to accumulate medical data ' +
-      'in order to help advance current medicine, both alternative and allopathic,' +
+      'in order to help advance current medicine, both alternative and allopathic, ' +
       'as well as raise awareness of incurable diseases like Parkinson\'s.');
 
     this.attackAnalysis = new Project('Attack Analysis', 'https://github.com/maryeprouty/attack-analysis',
       '../assets/attack.png');
     this.attackAnalysis.setDescription('A Java program mapping malicious attack behaviors to common software weaknesses ' +
-      'in order to prioritize technical debt in a security setting and refactor the' +
-      'vulnerabilities that pose the greatest threat in a software system. This research project' +
-      'was developed under the guidance of Dr. Clemente Izurieta, who co-authored the resulting' +
-      'pilot study with me, which can be found below.');
+      'in order to prioritize technical debt in a security setting and refactor the ' +
+      'vulnerabilities that pose the greatest threat in a software system. This research project ' +
+      'was developed under the guidance of Dr. Clemente Izurieta, who co-authored the resulting ' +
+      'pilot study with me, which can be found in the GitHub repository.');
 
     this.courier = new Project('Courier Replica', 'https://github.com/maryeprouty/courier-replica',
       '../assets/courier.png');
-    this.courier.setDescription('A replica of the Microsoft Courier tablet designed in Java Swing. This application' +
-      'features a multitude of drawing tools such as free-form digital ink, rubberbanding' +
-      'rectangles, and pink sticky notes for typed text, as well as a Simple Gesture Recognizer' +
+    this.courier.setDescription('A replica of the Microsoft Courier tablet designed in Java Swing. This application ' +
+      'features a multitude of drawing tools such as free-form digital ink, rubberbanding ' +
+      'rectangles, and pink sticky notes for typed text, as well as a Simple Gesture Recognizer ' +
       'and animations between pages, all of which leverage the redraw pipeline.');
 
     this.pounce = new Project('Pounce!', 'https://github.com/maryeprouty/pounce',
       '../assets/calico.png');
-    this.pounce.setDescription('A Gameboy game where you, a small bunny, must maneuver through hedge mazes' +
-      'and avoid the evil cats lurking about. Four levels of fun with my own original' +
+    this.pounce.setDescription('A Gameboy game where you, a small bunny, must maneuver through hedge mazes ' +
+      'and avoid the evil cats lurking about. Four levels of fun with my own original ' +
       'sprites and game design!');
 
     this.projects = [this.clearMind, this.healthItForward, this.attackAnalysis, this.courier,
