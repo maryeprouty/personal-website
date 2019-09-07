@@ -54,6 +54,16 @@ hr {
   margin-top: 45%;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .flexClass {
+    flex-direction: column;
+  }
+}
+
 
 
 

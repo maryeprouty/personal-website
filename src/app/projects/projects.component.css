@@ -28,10 +28,26 @@ p {
   text-align: left;
 }
 
-
 /* Make icons all same square size */
 .myIcon {
   width: 164px;
   height: 164px;
   padding-right: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .block {
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+  }
+
+  .myIcon {
+    padding-right: 0;
+  }
+
+  div {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

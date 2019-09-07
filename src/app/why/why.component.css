@@ -19,3 +19,12 @@ p {
   width: 30%;
   margin: 0 auto;
 }
+
+/* Resizes for mobile platform */
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+}
