@@ -39,7 +39,9 @@ export class ProjectsComponent implements OnInit {
       'in order to prioritize technical debt in a security setting and refactor the ' +
       'vulnerabilities that pose the greatest threat in a software system. This research project ' +
       'was developed under the guidance of Dr. Clemente Izurieta, who co-authored the resulting ' +
-      'pilot study with me, which can be found in the GitHub repository.');
+      'pilot study with me:');
+    this.attackAnalysis.setAttachment('https://www.cs.montana.edu/izurieta/pubs/TechDebt2019.pdf')
+    this.attackAnalysis.setAttachmentName('Leveraging SecDevOps to Tackle Technical Debt')
 
     this.courier = new Project('Courier Replica', 'https://github.com/maryeprouty/courier-replica',
       '../assets/courier.png');
