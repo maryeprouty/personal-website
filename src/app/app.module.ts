@@ -10,6 +10,8 @@ import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { WhyComponent } from './why/why.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { WhyComponent } from './why/why.component';
     AboutComponent,
     ProjectsComponent,
     ContactComponent,
-    WhyComponent
+    WhyComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SlideshowModule
+    SlideshowModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

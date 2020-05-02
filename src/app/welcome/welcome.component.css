@@ -1,0 +1,50 @@
+/* Text beside image */
+body {
+    background-color: #EEE2DC;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .myText {
+    padding-top: 12%;
+    padding-left: 5%;
+    color: #123C69;
+  }
+  
+  /* Framed photo of me :) */
+  .me {
+    width: 85%;
+    height: 95%;
+    border-radius: 25px;
+    padding: 0;
+    border-style: solid;
+    border-width: 25px;
+    border-image: url('../../assets/frame.png') 40 stretch;
+  }
+  
+  /* Sizes handwritten name */
+  .name {
+    width: 70%;
+    height: 30%;
+  }
+  
+  /* Resizes for mobile platform */
+  @media only screen and (max-width: 600px) {
+    .myText {
+      font-size: 14px;
+      text-align: center;
+      padding-top: 8%;
+    }
+  
+    .me {
+      width: 85%;
+      height: 100%;
+      padding-left: 0;
+    }
+  
+    .name {
+      width: 65%;
+      height: 33%;
+    }
+  
+  }
